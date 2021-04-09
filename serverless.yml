@@ -17,5 +17,6 @@ functions:
   slack:
     handler: src/index.post
     description: "Post message to Slack"
-    events:
-      - http: path
+    timeout: 60
+#     events:
+#       - http: path
