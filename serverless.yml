@@ -14,7 +14,7 @@ package:
     - docker-compose.yml
 
 functions:
-  slack:
+  hello-world:
     handler: src/index.post
     description: "Post message to Slack"
     timeout: 60
