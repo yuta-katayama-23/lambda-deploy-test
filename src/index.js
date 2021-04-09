@@ -1,4 +1,4 @@
-exports.post = async (request, response) => {
-  response.status(200).send('Hello World!');
+exports.post = async (event) => {
+//   response.status(200).send('Hello World!');
   return 'hello world!!';
 }
